@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Readex Pro', sans-serif;
+    background-color: #FFF9EA;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+
+/** ------------- Header ------------- */
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-nav--menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav--menu li {
+    list-style: none;
+    margin-left: 37px;
+
+
+}
+
+.header-nav--menu li a {
+    color: #1D1D1D;
+}
+
+.header-nav--menu a {
+    text-decoration: none;
+}
+
+
+.btn-menu {
+    font-weight: 600;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    margin-right: 30px;
+}
+
+.cart {
+    margin-right: 30px;
+}
+
+.btn--acess a {
+    display: flex;
+    align-items: center;
+    background-color: #FFCB45;
+    padding: 12px 24px;
+    flex-direction: row;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.btn--acess svg {
+    margin-right: 10px;
+}
+
+.btn--acess a {
+    color: #1D1D1D;
+}
+
+/** ------------- Section banner ------------- */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-img {
+    height: calc(100vh - 60px);
+    background-image: url('./assets/image/banner-background.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.banner-image {
+    flex: 1;
+}
+
+.section-banner--right {
+    margin-right: 150px;
+}
+
+.banner--text-title {
+    color: #1D1D1D;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: start;
+    line-height: 60px;
+}
+
+.banner--text-title-food {
+    color: #FFCB45;
+}
+
+.banner--text-subtitle {
+    margin-top: 21px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.banner--btn-acess {
+    margin-top: 21px;
+    background: #FFCB45;
+    border-radius: 50px;
+    padding: 12px 24px;
+    width: 135px;
+}
+
+.banner--btn-acess a {
+    text-decoration: none;
+    color: #1D1D1D;
+}
+
+
+/** ------------- Section About Informations ------------- */
+
+.about-informations {
+    width: calc(100vw - 20px);
+    margin: auto;
+    background-color: #fff;
+}
+
+.informations {
+    width: 1035px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.about-informations-title {
+    color: #FFCB45;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+
+.about-informations-subtitle {
+    color: #1D1D1D;
+    margin-top: 7px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+
+.about-informations-text {
+    text-align: center;
+    color: rgba(29, 29, 29, 0.7);
+    margin-top: 26px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.about-informations-images {
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-around;
+}
+
+.image1 img{
+    width: 180px;
+    height: 180px;
+}
+
+.card1, .card2, .card3 {
+    text-align: center;
+}
+.about-informations-card--text h2{
+    color: #1D1D1D;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 24px;
+}
+
+.about-informations-card--text p {
+    color: rgba(29, 29, 29, 0.7);
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}

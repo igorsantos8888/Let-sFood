@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Readex Pro', sans-serif;
-    background-color: #FFF9EA;
+    background-color: #ffffff;
 }
 
 .container {
@@ -16,6 +16,11 @@ body {
 
 
 /** ------------- Header ------------- */
+
+header {
+    background-color: #FFF9EA;
+}
+
 .header {
     height: 60px;
     display: flex;
@@ -139,7 +144,7 @@ header .header-nav--menu {
 
 /** ------------- Section About Informations ------------- */
 
-.about-informations {
+.section-backgroun-white {
     width: calc(100vw - 20px);
     margin: auto;
     background-color: #fff;
@@ -182,7 +187,7 @@ header .header-nav--menu {
     justify-content: space-around;
 }
 
-.image1 img{
+.image1 img {
     width: 180px;
     height: 180px;
 }
@@ -190,7 +195,8 @@ header .header-nav--menu {
 .card1, .card2, .card3 {
     text-align: center;
 }
-.about-informations-card--text h2{
+
+.about-informations-card--text h2 {
     color: #1D1D1D;
     font-weight: 600;
     font-size: 28px;
@@ -204,4 +210,262 @@ header .header-nav--menu {
     font-weight: 500;
     font-size: 20px;
     line-height: 25px;
+}
+
+
+/** ------------- Section Menu ------------- */
+
+.section-menu {
+    margin-top: 80px;
+}
+
+.section-menu-title {
+    color: #FFCB45;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+
+.section-menu-subtitle {
+    color: #1D1D1D;
+    margin-top: 7px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+
+.section-menu-text {
+    text-align: center;
+    color: rgba(29, 29, 29, 0.7);
+    margin-top: 26px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.section-informations {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.section-menu--cardapio {
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 24px;
+}
+
+.section-menu--cardapio img {
+    max-width: 200px;
+    height: 200px;
+}
+
+.section-menu--informations {
+    margin-top: 20px;
+}
+
+.section-menu--informations h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.section-menu--informations h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.price-and-heart {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 10px 10px 0px 0px;
+}
+
+.btn-menu--informations {
+    margin: 70px auto;
+
+}
+
+/** ------------- Section Depoiments ------------- */
+
+.section-what-say {
+    width: 1035px;
+    margin: auto;
+}
+
+.section-what-say {
+    display: flex;
+}
+
+.area2 {
+    display: flex;
+}
+
+.img-depoiments-2, .img-depoiments-3 {
+    width: 235px;
+    height: 235px;
+    margin-top: -35px;
+}
+
+.section-what-say--depoiments {
+    margin-left: 100px;
+}
+
+.section-what-say-title {
+    color: #FFCB45;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: start;
+    margin-top: 30px;
+}
+
+.section-what-say-subtitle {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+
+}
+
+.section-what-say-card-depoiments {
+    margin-top: 32px;
+    width: 430px;
+    height: 210px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+
+.section-what-say-card-depoiments--img-name {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 0px 30px;
+}
+
+.section-what-say-card-depoiments--name-starts {
+    margin-left: 18px;
+}
+
+.depoiments {
+    padding: 30px;
+}
+
+
+/** ------------- Section Login ------------- */
+.section-login--btn {
+    margin-top: 21px;
+    background: #FFCB45;
+    border-radius: 50px;
+    padding: 12px 24px;
+    width: 135px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #1D1D1D;
+    font-weight: bold;
+
+}
+
+.section-login {
+    background-image: url('./assets/image/background-image-login.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 1180px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-login h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+/** ------------- Section Footer ------------- */
+
+footer {
+    background-image: url('./assets/image/banner-background.png');
+}
+
+.footer-area {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-footer-area1 a svg {
+    margin-top: 80px;
+}
+
+.section-footer-address {
+    margin: 30px 0px;
+}
+
+.section-footer-socials {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.section-footer-instagram {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 20px;
+    box-shadow: 0px 4px 12px rgba(29, 29, 29, 0.15);
+}
+
+.section-footer-facebook {
+    background-color: #FFCB45;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 20px;
+    box-shadow: 0px 4px 12px rgba(29, 29, 29, 0.15);
+}
+
+.section-footer-twitter {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 20px;
+    box-shadow: 0px 4px 12px rgba(29, 29, 29, 0.15);
+}
+
+.section-footer-area2 h2, .section-footer-area3 h2, .section-footer-area4 h2 {
+    margin-top: 80px;
+}
+
+.section-footer--features, .section-footer--Policy {
+    margin-top: 30px;
+}
+
+.section-footer--features>p, .section-footer--Policy > p, .section-footer--contact > p {
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(29, 29, 29, 0.7);
+}
+
+hr {
+    border: 1px solid #000;
+    margin: 90px auto;
+    width: 70%;
+}
+
+.all-reserved {
+    text-align: center;
 }
